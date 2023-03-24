@@ -1,0 +1,14 @@
+# .platform.app.yaml
+
+name: evisel-vitrine-app
+
+type: php:8.2
+
+runtime:
+  extensions:
+    - curl
+    - pdo_mysql
+    - imagick
+
+mounts:
+  "/": "auto"
