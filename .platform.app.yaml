@@ -13,7 +13,7 @@ runtime:
 web:
   locations:
     "/":
-      root: "dist"
+      root: "public"
       allow: true
       passthru: "/index.html"
       expires: -1
