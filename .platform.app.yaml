@@ -12,4 +12,4 @@ runtime:
 disk: 128
 mounts:
   "/app/img": "shared:files/img"
-  "/app/data.json": "shared:files/data.json"
+  "/app/EVISEL_VT.json": "shared:files/EVISEL_VT.json"
