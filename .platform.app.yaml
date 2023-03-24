@@ -1,6 +1,6 @@
 # .platform.app.yaml
 
-name: evisel-vitrine-app
+name: app
 
 type: php:8.2
 
