@@ -9,7 +9,7 @@ runtime:
     - curl
     - pdo_mysql
     - imagick
-
+disk: 128
 mounts:
   "/app/img": "shared:files/img"
   "/app/data.json": "shared:files/data.json"
