@@ -11,5 +11,5 @@ runtime:
     - imagick
 disk: 128
 mounts:
-  "/img": "auto"
-  "/EVISEL_VT.json": "shared:files/EVISEL_VT.json"
+  "img": "auto"
+  "EVISEL_VT.json": "shared:files/EVISEL_VT.json"
