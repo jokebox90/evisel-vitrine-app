@@ -10,4 +10,14 @@ runtime:
     - pdo_mysql
     - imagick
 
+web:
+  locations:
+    "/":
+      root: "dist"
+      allow: true
+      passthru: "/index.html"
+      expires: -1
+      scripts: true
+      index: ["index.html"]
+
 disk: 128
