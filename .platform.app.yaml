@@ -11,4 +11,5 @@ runtime:
     - imagick
 
 mounts:
-  "/": "auto"
+  "/app/img": "shared:files/img"
+  "/app/data.json": "shared:files/data.json"
